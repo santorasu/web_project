@@ -107,7 +107,7 @@ nav ul li a:hover {
 
 .service-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -231,7 +231,7 @@ footer {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
         text-align: center;
@@ -248,4 +248,4 @@ footer {
     .service-list {
         grid-template-columns: 1fr;
     }
-}
+} */
